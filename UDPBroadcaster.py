@@ -4,7 +4,7 @@ import random
 import json
 
 serverName = '255.255.255.255'
-serverPort = 12000
+serverPort = 10100
 clientSocket = socket(AF_INET, SOCK_DGRAM)
 clientSocket.setsockopt(SOL_SOCKET, SO_BROADCAST, 1)
 
